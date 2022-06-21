@@ -22,11 +22,11 @@ public class ServerProperties {
     }
 
     static {
-        String toLoad = "channel.properties";
+        String toLoad = "setting/channel.properties";
         loadProperties(toLoad);
-        toLoad = "ports.properties";
+        toLoad = "setting/ports.properties";
         loadProperties(toLoad);
-        toLoad = "database.properties";
+        toLoad = "setting/database.properties";
         loadProperties(toLoad);
         /*        try {
          Connection con = DatabaseConnection.getConnection();
@@ -47,7 +47,7 @@ public class ServerProperties {
          System.out.println("SQL 연동을 해주세요.");
          System.exit(0); //Big ass error.
          }*/
-        toLoad = "world.properties";
+        toLoad = "setting/world.properties";
         loadProperties(toLoad);
         /*
         toLoad = "discord.properties";
