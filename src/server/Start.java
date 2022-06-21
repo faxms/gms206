@@ -121,20 +121,20 @@ public class Start {
         Butterfly.load();
         //SpecialItemConstants.LoadGoldAppleItems();
 
-        WorldTimer.getInstance().register(new MapleEtcControl(), 1000);
-        WorldTimer.getInstance().register(new MapleMistControl(), 1000);
-        WorldTimer.getInstance().register(new MapleSkillControl(), 1000);
-        WorldTimer.getInstance().register(new MapleSummonControl(), 1000);
-        WorldTimer.getInstance().register(new MapleMapControl(), 1000);
-        WorldTimer.getInstance().register(new MapleRunOnceControl(), 10000);
-        WorldTimer.getInstance().register(new MapleHotTimeControl(), 60000);
+//        WorldTimer.getInstance().register(new MapleEtcControl(), 1000);
+//        WorldTimer.getInstance().register(new MapleMistControl(), 1000);
+//        WorldTimer.getInstance().register(new MapleSkillControl(), 1000);
+//        WorldTimer.getInstance().register(new MapleSummonControl(), 1000);
+//        WorldTimer.getInstance().register(new MapleMapControl(), 1000);
+//        WorldTimer.getInstance().register(new MapleRunOnceControl(), 10000);
+//        WorldTimer.getInstance().register(new MapleHotTimeControl(), 60000);
 
-        ConnectorPanel cp = new ConnectorPanel();
-        cp.setVisible(true);
-
-        ControlPannel cnp = new ControlPannel();
-        cnp.setVisible(true);
-        AutoGame();
+//        ConnectorPanel cp = new ConnectorPanel();
+//        cp.setVisible(true);
+//
+//        ControlPannel cnp = new ControlPannel();
+//        cnp.setVisible(true);
+//        AutoGame();
         
         try {
             new ConnectorServer().run_startup_configurations();
